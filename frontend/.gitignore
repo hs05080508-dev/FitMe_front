@@ -1,5 +1,15 @@
-node_modules/
-build/
+node_modules
+dist
+dist-ssr
+*.local
+
+# 환경변수 (절대 커밋 금지)
 .env
-.env.local
+.env.*
+!.env.example
+
+# 에디터
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
